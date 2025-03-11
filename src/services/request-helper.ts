@@ -1,4 +1,4 @@
-import githubApi from "./githubApi";
+
 
 interface GithubUser {
   id: number;

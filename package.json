@@ -2,7 +2,7 @@
   "name": "atask",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://username.github.io/atask-test",
+  "homepage": "https://dinovawidy.github.io/atask-test",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

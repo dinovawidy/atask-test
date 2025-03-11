@@ -14,7 +14,6 @@ const GithubSearch: React.FC = () => {
   const username = useSelector((state: RootState) => state.github.username);
   const users = useSelector((state: RootState) => state.github.users);
   const repos = useSelector((state: RootState) => state.github.repos);
-  const selectedUser = useSelector((state: RootState) => state.github.selectedUser);
   const [expandedUser, setExpandedUser] = useState<string | null>(null);
 
   console.log("username", username);
