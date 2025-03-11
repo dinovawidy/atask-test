@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
   },
   build: {
-    outDir: 'html',
+    outDir: 'dist',
     sourcemap: true,
   },
 })

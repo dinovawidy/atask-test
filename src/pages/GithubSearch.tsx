@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { searchGithubUsers, getGithubUserRepos } from "../services/request-helper";
 import { RootState, AppDispatch  } from "../services/store";
 import { useDispatch, useSelector } from "react-redux";
 import Action from "./redux/Action";
